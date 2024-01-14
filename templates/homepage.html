@@ -300,7 +300,7 @@
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
             {%for customer in customers%}
-            <div class="swiper-slide"><img src="{{customer.imageURL}}" class="img-fluid" alt="">Vasoni</div>
+            <div class="swiper-slide"><img src="{{customer.imageURL}}" class="img-fluid" alt="">{{customer.name}}</div>
             {%endfor%}
           </div>
           <div class="swiper-pagination"></div>

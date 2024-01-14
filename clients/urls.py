@@ -4,7 +4,7 @@ from . import views
 from refferals.forms import LoginForm
 
 urlpatterns = [
-    path('/registeration', views.registration, name='registration'),
+    path('registeration', views.registration, name='registration'),
     path('', views.tenantRegistration , name='register'),
     path('customer_invoice/<int:id>/', views.editInvoice, name='edit_invoice'),
     path('customer_invoice/', views.customerInvoice, name='customer_invoice'),

@@ -92,7 +92,7 @@
               </div>
 
               <div class="entry-content">
-                <p>{{blog.content|truncatechars:255}}</p>
+                <p>{{blog.content|safe|truncatechars:255}}</p>
                 <div class="entry-footer">
                   <i class="bi bi-folder"></i>
                   <ul class="cats">
